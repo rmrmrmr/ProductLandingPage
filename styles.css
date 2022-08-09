@@ -8,7 +8,7 @@
 
 #section1 {
     display: grid;
-    grid-template-columns: 10vw 40vw 40vw 10vw;
+    grid-template-columns: 15vw 35vw 35vw 15vw;
     grid-template-rows: 10vh 80vh 10vh;
     background-color: #1F2937;
 }
@@ -38,7 +38,7 @@
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-    height: 1.5em;
+    height: 1.5em
 }
 
 #headerSecondaryText {
@@ -50,7 +50,37 @@
     background-color: #3882f6;
     color: white;
     width: 25%;
-    height: 3em;
+    height: 5%;
+    border-radius: 13em;
     border-style: hidden;
-    border-radius: 20%;
+}
+
+#imageSection {
+    grid-column: 3/4;
+    align-self: center;
+    justify-self: center;
+    color: white;
+    padding: 20vh 7vw;
+    background-color: #6d747d;
+
+}
+
+#section2 {
+    display: grid;
+    grid-template-columns: 25vw 50vw 25vw;
+    grid-template-rows: 5rem 10rem 5rem;
+}
+
+#infoHeader {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 1000;
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+#infoImages {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
 }
