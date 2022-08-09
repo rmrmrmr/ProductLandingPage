@@ -112,8 +112,29 @@
     text-justify: inter-word;
 }
 
-#section4 {
+#section3 {
     display: grid;
     grid-template-columns: 25vw 50vw 25vw;
+    grid-template-rows: 10vh 35vh 5vh 10vh;
+    background-color: #e5e7eb;
 }
 
+#mainQuote{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 36px;
+    font-style:italic;
+    font-weight: 10;
+    text-align: left;
+
+}
+
+#quoteAuthor {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: end;
+    font-weight: 900;
+    font-size: 25px;
+    align-self: center;
+    
+}
