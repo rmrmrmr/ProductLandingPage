@@ -194,3 +194,20 @@
     font-weight: bold;
 }
 
+#footer {
+    background-color: #1F2937;
+    color: white;
+    justify-self: center;
+    grid-column: 2/3;
+    font-size: larger;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-justify: auto;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
