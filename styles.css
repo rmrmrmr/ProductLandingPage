@@ -8,7 +8,7 @@
 
 #section1 {
     display: grid;
-    grid-template-columns: 15vw 35vw 35vw 15vw;
+    grid-template-columns: 15% 35% 35% 15%;
     grid-template-rows: 10vh 60vh 10vh;
     background-color: #1F2937;
 }
@@ -55,21 +55,23 @@
     border-style: hidden;
 }
 
+#imageSection {
+    grid-column: 3/4;
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+    color: white;
+    padding: 20vh 7vw;
+    border-radius: 20px;
+    background-color: #6d747d;
+}
+
 #section2 {
     display: grid;
     grid-template-columns: 15vw 70vw 15vw;
     grid-template-rows: 15vh 30vh 10vh;
 }
 
-#imageSection {
-    grid-column: 3/4;
-    align-self: center;
-    justify-self: center;
-    color: white;
-    padding: 20vh 7vw;
-    border-radius: 12px;
-    background-color: #6d747d;
-}
 
 #infoHeader {
     color: #1F2937;
